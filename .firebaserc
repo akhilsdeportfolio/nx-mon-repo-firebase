@@ -1,0 +1,25 @@
+{
+  "projects": {
+    "default": "nx-mono-modu"
+  },
+  "targets": {
+    "nx-mono-modu": {
+      "hosting": {
+        "shell": [
+          "shell123"
+        ],
+        "about": [
+          "about123"
+        ],
+        "cart": [
+          "cart1234"
+        ],
+        "shop": [
+          "shop1234"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

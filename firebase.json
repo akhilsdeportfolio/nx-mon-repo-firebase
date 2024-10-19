@@ -1,0 +1,44 @@
+{
+  "hosting": [
+    {
+      "target": "shell",
+      "public": "dist/apps/shell",
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "about",
+      "public": "dist/apps/about",
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "cart",
+      "public": "dist/apps/cart",
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "shop",
+      "public": "dist/apps/shop",
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
